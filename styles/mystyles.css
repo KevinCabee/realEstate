@@ -11,5 +11,20 @@ a{
     text-decoration: none;
 }
 /*utilities*/
+.menu a{
+    color: white;
+    margin-left: 10px;
+}
 
 /*header*/
+.site-header{
+    display: flex;
+    background-image: url(../img/header.jpg);
+    background-size:125%;
+    flex-direction:column;
+    justify-content: top;
+    align-items: center;
+    height: 300px;
+    color: white;
+}
+
